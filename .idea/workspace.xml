@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f7562d8-91c6-4879-ac76-31a0f26b4acb" name="Default Changelist" comment="" />
+    <list default="true" id="8f7562d8-91c6-4879-ac76-31a0f26b4acb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pp/block1/cc/dfa/MyScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pp/block1/cc/dfa/MyScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,19 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/CheckerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="391">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -32,8 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="276">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -41,20 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state relative-caret-position="31">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="33" />
               <folding>
-                <element signature="e#190#191#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -68,6 +63,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -75,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/pp/block1/cc/dfa/Checker.java" />
         <option value="$PROJECT_DIR$/src/pp/block1/cc/dfa/MyChecker.java" />
         <option value="$PROJECT_DIR$/src/pp/block1/cc/test/CheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java" />
         <option value="$PROJECT_DIR$/src/pp/block1/cc/dfa/MyScanner.java" />
       </list>
     </option>
@@ -85,6 +84,7 @@
     <option name="width" value="2800" />
     <option name="height" value="2000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -119,6 +119,13 @@
               <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
               <item name="dfa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,7 +151,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556182581032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556279451011" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/antlr-runtime-4.7.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -168,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckerTest">
+  <component name="RunManager" selected="JUnit.ScannerTest">
     <configuration name="CheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functionalprogramming" />
       <extension name="coverage">
@@ -199,8 +206,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScannerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functionalprogramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pp.block1.cc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
+      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ScannerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScannerTest" />
         <item itemvalue="JUnit.CheckerTest" />
         <item itemvalue="JUnit.ExampleTest" />
       </list>
@@ -220,18 +243,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest - 2019.04.25 at 10h 03m 17s.xml">
-      <configuration name="ExampleTest" configurationId="JUnit" />
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 23m 31s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckerTest - 2019.04.25 at 10h 40m 24s.xml">
-      <configuration name="CheckerTest" configurationId="JUnit" />
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 24m 08s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 24m 55s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 25m 12s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 25m 27s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 27m 15s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 27m 19s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 32m 25s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 12h 32m 29s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScannerTest - 2019.04.25 at 13h 31m 38s.xml">
+      <configuration name="ScannerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="7" />
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,8 +287,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -262,13 +309,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Example.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/LexerTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -283,17 +323,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -304,26 +344,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Example.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/ExampleUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="276">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="31">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
