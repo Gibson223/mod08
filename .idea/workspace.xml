@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7562d8-91c6-4879-ac76-31a0f26b4acb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,22 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ExampleTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ID6Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="391">
+              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Exercise11.g4">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -69,68 +68,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functionalprogramming" type="b2602c69:ProjectViewProjectNode" />
               <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functionalprogramming" type="b2602c69:ProjectViewProjectNode" />
               <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functionalprogramming" type="b2602c69:ProjectViewProjectNode" />
               <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functionalprogramming" type="b2602c69:ProjectViewProjectNode" />
               <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cc" type="462c0819:PsiDirectoryNode" />
               <item name="antlr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cc" type="462c0819:PsiDirectoryNode" />
-              <item name="antlr" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cc" type="462c0819:PsiDirectoryNode" />
-              <item name="dfa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functionalprogramming" type="b2602c69:ProjectViewProjectNode" />
               <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cc" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FunctionalProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functionalprogramming" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +117,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556525476044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556528211871" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/antlr-runtime-4.7.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -263,9 +242,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckerTest_testID6 - 2019.04.26 at 15h 31m 47s.xml">
-      <configuration name="CheckerTest.testID6" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckerTest_testLALA - 2019.04.28 at 18h 16m 27s.xml">
       <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
     </history-entry>
@@ -293,12 +269,15 @@
     <history-entry file="ExampleTest - 2019.04.29 at 10h 04m 28s.xml">
       <configuration name="ExampleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExampleTest - 2019.04.29 at 10h 56m 21s.xml">
+      <configuration name="ExampleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18613334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +286,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,6 +398,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Exercise11.g4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ID6Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
