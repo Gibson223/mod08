@@ -33,8 +33,12 @@ public class ID6Test {
 	public void successiveTest() {
 		// 0 or >1 ids in succession
 		tester.yields("");
-		// tester.yields("a12345AaBbCc", ID6.ID, ID6.ID); // TODO uncomment once you have the ID6 grammar
+//		 tester.yields("a12345AaBbCc", ID6.ID, ID6.ID); // TODO uncomment once you have the ID6 grammar
 		tester.wrong("a12345 AaBbCc");
+//		space in between which is not possible
 		tester.wrong("a123451a2345");
+//		second starts with 1 which is not possible
+
+//		removing the fragment will let single letters be seen as token, which will fail the test
 	}
 }

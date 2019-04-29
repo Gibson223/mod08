@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8f7562d8-91c6-4879-ac76-31a0f26b4acb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/pp/block1/cc/antlr/Exercise11.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/pp/block1/cc/antlr/Exercise11.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/pp/block1/cc/antlr/Exercise11.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/pp/block1/cc/antlr/Exercise11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/pp/block1/cc/antlr/Exercise11.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/pp/block1/cc/antlr/Exercise11.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pp/block1/cc/test/ID6Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pp/block1/cc/test/ID6Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,21 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ID6Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            <state relative-caret-position="897">
+              <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#91#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Exercise11.g4">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -53,6 +62,8 @@
         <option value="$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java" />
         <option value="$PROJECT_DIR$/src/pp/block1/cc/antlr/Example.g4" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/pp/block1/cc/test/ID6Test.java" />
+        <option value="$PROJECT_DIR$/src/pp/block1/cc/antlr/Exercise11.g4" />
       </list>
     </option>
   </component>
@@ -117,7 +128,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556528211871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556529371624" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/antlr-runtime-4.7.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -141,21 +152,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExampleTest">
-    <configuration name="ExampleUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.antlr.ExampleUsage" />
-      <module name="functionalprogramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pp.block1.cc.antlr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckerTest.testID6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ID6Test">
+    <configuration name="ID6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functionalprogramming" />
       <extension name="coverage">
         <pattern>
@@ -164,45 +162,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
-      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.CheckerTest" />
-      <option name="METHOD_NAME" value="testID6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckerTest.testLALA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="functionalprogramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pp.block1.cc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
-      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.CheckerTest" />
-      <option name="METHOD_NAME" value="testLALA" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="functionalprogramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pp.block1.cc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
-      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ID6Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerTest.testID6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ID6Test.rightLengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functionalprogramming" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +177,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
-      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ScannerTest" />
-      <option name="METHOD_NAME" value="testID6" />
+      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ID6Test" />
+      <option name="METHOD_NAME" value="rightLengthTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID6Test.successiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functionalprogramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pp.block1.cc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
+      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ID6Test" />
+      <option name="METHOD_NAME" value="successiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID6Test.tooLongTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functionalprogramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pp.block1.cc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
+      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ID6Test" />
+      <option name="METHOD_NAME" value="tooLongTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID6Test.tooShortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functionalprogramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pp.block1.cc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.block1.cc.test" />
+      <option name="MAIN_CLASS_NAME" value="pp.block1.cc.test.ID6Test" />
+      <option name="METHOD_NAME" value="tooShortTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExampleTest" />
-        <item itemvalue="JUnit.ScannerTest.testID6" />
-        <item itemvalue="JUnit.CheckerTest.testLALA" />
-        <item itemvalue="JUnit.CheckerTest.testID6" />
-        <item itemvalue="Application.ExampleUsage" />
+        <item itemvalue="JUnit.ID6Test" />
+        <item itemvalue="JUnit.ID6Test.tooShortTest" />
+        <item itemvalue="JUnit.ID6Test.successiveTest" />
+        <item itemvalue="JUnit.ID6Test.tooLongTest" />
+        <item itemvalue="JUnit.ID6Test.rightLengthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,35 +256,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckerTest_testLALA - 2019.04.28 at 18h 16m 27s.xml">
-      <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckerTest_testLALA - 2019.04.28 at 18h 17m 00s.xml">
-      <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckerTest_testID6 - 2019.04.28 at 18h 17m 29s.xml">
-      <configuration name="CheckerTest.testID6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckerTest_testLALA - 2019.04.28 at 18h 17m 34s.xml">
-      <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2019.04.28 at 20h 00m 02s.xml">
-      <configuration name="ExampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckerTest_testID6 - 2019.04.29 at 09h 45m 00s.xml">
-      <configuration name="CheckerTest.testID6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckerTest_testLALA - 2019.04.29 at 09h 45m 12s.xml">
-      <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScannerTest_testID6 - 2019.04.29 at 09h 48m 01s.xml">
-      <configuration name="ScannerTest.testID6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2019.04.29 at 10h 04m 28s.xml">
-      <configuration name="ExampleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExampleTest - 2019.04.29 at 10h 56m 21s.xml">
       <configuration name="ExampleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_successiveTest - 2019.04.29 at 11h 08m 00s.xml">
+      <configuration name="ID6Test.successiveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_successiveTest - 2019.04.29 at 11h 11m 46s.xml">
+      <configuration name="ID6Test.successiveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_tooShortTest - 2019.04.29 at 11h 11m 55s.xml">
+      <configuration name="ID6Test.tooShortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_rightLengthTest - 2019.04.29 at 11h 11m 58s.xml">
+      <configuration name="ID6Test.rightLengthTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_tooLongTest - 2019.04.29 at 11h 12m 01s.xml">
+      <configuration name="ID6Test.tooLongTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_successiveTest - 2019.04.29 at 11h 12m 07s.xml">
+      <configuration name="ID6Test.successiveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_tooShortTest - 2019.04.29 at 11h 14m 13s.xml">
+      <configuration name="ID6Test.tooShortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test_tooShortTest - 2019.04.29 at 11h 15m 40s.xml">
+      <configuration name="ID6Test.tooShortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ID6Test - 2019.04.29 at 11h 15m 49s.xml">
+      <configuration name="ID6Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -401,16 +415,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Exercise11.g4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ID6Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        <state relative-caret-position="897">
+          <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#91#119#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Exercise11.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
