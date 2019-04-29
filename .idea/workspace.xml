@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f7562d8-91c6-4879-ac76-31a0f26b4acb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/functionalprogramming/pp/block1/cc/dfa/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functionalprogramming/pp/block1/cc/dfa/State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/functionalprogramming/pp/block1/cc/test/CheckerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functionalprogramming/pp/block1/cc/test/CheckerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pp/block1/cc/antlr/Example.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/pp/block1/cc/antlr/Example.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pp/block1/cc/test/CheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pp/block1/cc/test/CheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pp/block1/cc/antlr/rrd-antlr4-0.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/pp/block1/cc/antlr/antlr4.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,65 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="113" column="40" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/antlr/Example.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="92">
               <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/CheckerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -187,7 +129,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556524126135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556525116791" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/antlr-runtime-4.7.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -211,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScannerTest.testID6">
+  <component name="RunManager" selected="JUnit.ExampleTest">
     <configuration name="ExampleUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pp.block1.cc.antlr.ExampleUsage" />
       <module name="functionalprogramming" />
@@ -290,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExampleTest" />
         <item itemvalue="JUnit.ScannerTest.testID6" />
         <item itemvalue="JUnit.CheckerTest.testLALA" />
         <item itemvalue="JUnit.CheckerTest.testID6" />
         <item itemvalue="Application.ExampleUsage" />
-        <item itemvalue="JUnit.ExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -312,12 +254,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckerTest_testLALA - 2019.04.26 at 15h 29m 55s.xml">
-      <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckerTest_testLALA - 2019.04.26 at 15h 31m 03s.xml">
-      <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckerTest_testID6 - 2019.04.26 at 15h 31m 47s.xml">
       <configuration name="CheckerTest.testID6" configurationId="JUnit" />
     </history-entry>
@@ -342,12 +278,17 @@
     <history-entry file="CheckerTest_testLALA - 2019.04.29 at 09h 45m 12s.xml">
       <configuration name="CheckerTest.testLALA" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ScannerTest_testID6 - 2019.04.29 at 09h 48m 01s.xml">
+      <configuration name="ScannerTest.testID6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2019.04.29 at 10h 04m 28s.xml">
+      <configuration name="ExampleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18613334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18613334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +297,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,16 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -406,13 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -443,13 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -461,6 +378,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/dfa/MyScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pp/block1/cc/test/ExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
