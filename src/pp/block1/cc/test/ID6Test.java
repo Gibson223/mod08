@@ -1,11 +1,12 @@
 package pp.block1.cc.test;
 
 import org.junit.Test;
+import pp.block1.cc.antlr.Exercise11;
 
 
 @SuppressWarnings("javadoc")
 public class ID6Test {
-	private static LexerTester tester = null; // TODO fill in once you have the ID6 grammar
+	private static LexerTester tester = new LexerTester(Exercise11.class); // TODO fill in once you have the ID6 grammar
 
 	@Test
 	public void tooShortTest() {
