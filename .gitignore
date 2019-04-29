@@ -1,6 +1,7 @@
 .DS_Store
 .idea/misc.xml
 .idea/vcs.iml
-idea/workspace.iml
+.idea/workspace.iml
+.idea/*
 mod08.iml
 .idea/libraries
