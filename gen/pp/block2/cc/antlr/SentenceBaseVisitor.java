@@ -1,6 +1,5 @@
 // Generated from C:/Users/Bjorn/Documents/Universiteit/Year 2/MOD08/functionalprogramming/src/pp/block2/cc/antlr\Sentence.g4 by ANTLR 4.7.2
 package pp.block2.cc.antlr;
-package pp.block2.cc.antlr;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**

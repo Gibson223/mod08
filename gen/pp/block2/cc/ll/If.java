@@ -1,6 +1,5 @@
 // Generated from C:/Users/Bjorn/Documents/Universiteit/Year 2/MOD08/functionalprogramming/src/pp/block2/cc/ll\If.g4 by ANTLR 4.7.2
 package pp.block2.cc.ll;
-package pp.block2.cc.ll;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
