@@ -28,7 +28,7 @@ public class MyLLCalc implements LLCalc {
     @Override
     public Map<NonTerm, Set<Term>> getFollow() {
         Map<NonTerm, Set<Term>> follow = new HashMap<>();
-        Boolean hasChanged = true;
+        boolean hasChanged = true;
         for (NonTerm nonTerm : this.grammar.getNonterminals()) {
             follow.put(nonTerm, new HashSet<>());
         }
@@ -56,6 +56,15 @@ public class MyLLCalc implements LLCalc {
                             followCE.addAll(first);
                             follow.put(lhs, followCE);
                             hasChanged = true;
+                        } else {
+                            if ((rhs.get(i-1) instanceof NonTerm) && (rhs.get(i-2) instanceof  NonTerm)) {
+                                Set<Term> oneBeforeCurrent = firstMap.get(rhs.get((i-1)));
+                                Set<Term> twoBeforeCurrent = firstMap.get(rhs.get(i-2));
+                                if (oneBeforeCurrent.contains(Symbol.EMPTY)) {
+                                    twoBeforeCurrent.add((Term) currentElement);
+                                    follow.put((NonTerm) rhs.get(i-2), twoBeforeCurrent);
+                                }
+                            }
                         }
                     }
                 }
