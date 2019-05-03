@@ -85,7 +85,7 @@ public class MyLLCalc implements LLCalc {
         Map<Rule, Set<Term>> firstPlus = getFirstp();
         for (Rule rule1 : firstPlus.keySet()) {
             for (Rule rule2 : firstPlus.keySet()) {
-                if (!rule1.equals(rule2) && (rule1.getLHS()).equals(rule2.getLHS())) {
+                if ((rule1.getLHS()).equals(rule2.getLHS()) && !rule1.equals(rule2)) {
                     List<Symbol> rule2rhs = rule2.getRHS();
                     for (Symbol sym : rule1.getRHS()) {
                         if (rule2rhs.contains(sym)) {
