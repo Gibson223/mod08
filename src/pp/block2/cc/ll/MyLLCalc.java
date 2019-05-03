@@ -8,9 +8,14 @@ import java.util.Map;
 import java.util.Set;
 
 public class MyLLCalc implements LLCalc {
+    private Grammar grammar;
     /**
      * Returns the FIRST-map for the grammar of this calculator instance.
      */
+    public MyLLCalc(Grammar grammar) {
+        this.grammar = grammar;
+        grammar = grammar;
+    }
     @Override
     public Map<Symbol, Set<Term>> getFirst() {
         return null;
