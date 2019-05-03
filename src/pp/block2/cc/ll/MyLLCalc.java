@@ -63,6 +63,7 @@ public class MyLLCalc implements LLCalc {
                                 if (oneBeforeCurrent.contains(Symbol.EMPTY)) {
                                     twoBeforeCurrent.add((Term) currentElement);
                                     follow.put((NonTerm) rhs.get(i-2), twoBeforeCurrent);
+                                    hasChanged = true;
                                 }
                             }
                         }
