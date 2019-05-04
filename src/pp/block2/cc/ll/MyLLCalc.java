@@ -3,11 +3,6 @@ package pp.block2.cc.ll;
 import pp.block2.cc.NonTerm;
 import pp.block2.cc.Symbol;
 import pp.block2.cc.Term;
-
-<<<<<<< HEAD
-=======
-import javax.sound.midi.Sequencer;
->>>>>>> origin/master
 import java.util.*;
 
 public class MyLLCalc implements LLCalc {
@@ -71,11 +66,13 @@ public class MyLLCalc implements LLCalc {
     @Override
     public Map<NonTerm, Set<Term>> getFollow() {
         Map<NonTerm, Set<Term>> follow = new HashMap<>();
-        boolean hasChanged = true;
         for (NonTerm nonTerm : this.grammar.getNonterminals()) {
             follow.put(nonTerm, new HashSet<>());
         }
-        follow.put(this.grammar.getStart(), Collections.singleton(Symbol.EOF));
+        Set<Term> aaa = new HashSet<Term>();
+        aaa.add((Term) Symbol.EOF);
+        follow.put(this.grammar.getStart(), aaa);
+        boolean hasChanged = true;
         Map<Symbol, Set<Term>> firstMap = getFirst();
         while (hasChanged) {
             hasChanged = false;
@@ -87,26 +84,27 @@ public class MyLLCalc implements LLCalc {
                     if (lastElement instanceof NonTerm) {
                         Set<Term> followLHS = follow.get(lhs);
                         Set<Term> followLE = follow.get(lastElement);
-                        followLE.addAll(followLHS);
-                        follow.put(lhs, followLE);
-                        hasChanged = true;
+                        if (followLE.addAll(followLHS)) {
+                            hasChanged = true;
+                            follow.put(lhs, followLE);
+                        }
                     }
                     for (int i = rhs.size() - 2; i >= 0; i--) {
                         Symbol currentElement = rhs.get(i);
                         if (currentElement instanceof NonTerm) {
                             Set<Term> first = firstMap.get(rhs.get(i+1));
                             Set<Term> followCE = follow.get(currentElement);
-                            followCE.addAll(first);
-                            follow.put(lhs, followCE);
-                            hasChanged = true;
-                        } else {
-                            if ((rhs.get(i-1) instanceof NonTerm) && (rhs.get(i-2) instanceof  NonTerm)) {
-                                Set<Term> oneBeforeCurrent = firstMap.get(rhs.get((i-1)));
-                                Set<Term> twoBeforeCurrent = firstMap.get(rhs.get(i-2));
-                                if (oneBeforeCurrent.contains(Symbol.EMPTY)) {
-                                    twoBeforeCurrent.add((Term) currentElement);
-                                    follow.put((NonTerm) rhs.get(i-2), twoBeforeCurrent);
-                                    hasChanged = true;
+                            if (followCE.addAll(first)) {
+                                hasChanged = true;
+                                follow.put((NonTerm) currentElement, followCE);
+                            }
+                            int t = i;
+                            while (t <= rhs.size() -3  && first.contains(Symbol.EMPTY)) { // first has index i+1
+                                if (first.contains(Symbol.EMPTY) && rhs.get(i+2) instanceof Term) {
+                                    if (followCE.add((Term) rhs.get(i+2))) {
+                                        hasChanged = true;
+                                        follow.put((NonTerm) currentElement, followCE);
+                                    }
                                 }
                             }
                         }
@@ -127,7 +125,17 @@ public class MyLLCalc implements LLCalc {
      */
     @Override
     public Map<Rule, Set<Term>> getFirstp() {
-        return null;
+        Map<Symbol, Set<Term>> firstMap = getFirst();
+        Map<NonTerm,Set<Term>> followMap = getFollow();
+        Map<Rule, Set<Term>> ret = new HashMap<>();
+        for (Rule rule : this.grammar.getRules()) {
+            Set<Term> ruleres = firstMap.get(rule.getRHS().get(0));
+            if (ruleres.contains(Symbol.EMPTY)) {
+                ruleres.addAll(followMap.get(rule.getLHS()));
+            }
+            ret.put(rule, ruleres);
+        }
+        return ret;
     }
 
     /**
@@ -136,16 +144,19 @@ public class MyLLCalc implements LLCalc {
     @Override
     public boolean isLL1() {
         Map<Rule, Set<Term>> firstPlus = getFirstp();
-        for (Rule rule1 : firstPlus.keySet()) {
-            for (Rule rule2 : firstPlus.keySet()) {
-                if ((rule1.getLHS()).equals(rule2.getLHS()) && !rule1.equals(rule2)) {
-                    List<Symbol> rule2rhs = rule2.getRHS();
-                    for (Symbol sym : rule1.getRHS()) {
-                        if (rule2rhs.contains(sym)) {
-                            return false;
-                        }
+        for (NonTerm lhs : grammar.getNonterminals()) {
+            int last = grammar.getRules(lhs).size() - 1;
+            int rule1index = 0;
+            List<Rule> rules = grammar.getRules(lhs);
+            while (rule1index < last) {
+                int rule2index = rule1index + 1;
+                while (rule2index <= last) {
+                    if (firstPlus.get(rules.get(rule1index)).containsAll(firstPlus.get(rules.get(rule2index)))) {
+                        return false;
                     }
+                    rule2index += 1;
                 }
+                rule1index += 1;
             }
         }
         return true;
