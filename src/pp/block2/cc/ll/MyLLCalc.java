@@ -98,12 +98,17 @@ public class MyLLCalc implements LLCalc {
                                 hasChanged = true;
                                 follow.put((NonTerm) currentElement, followCE);
                             }
-                            int t = i;
+                            int t = i+2;
                             while (t <= rhs.size() -3  && first.contains(Symbol.EMPTY)) { // first has index i+1
-                                if (first.contains(Symbol.EMPTY) && rhs.get(i+2) instanceof Term) {
-                                    if (followCE.add((Term) rhs.get(i+2))) {
-                                        hasChanged = true;
-                                        follow.put((NonTerm) currentElement, followCE);
+                                if (firstMap.get(rhs.get(t-1)).contains(Symbol.EMPTY)) {
+                                    if (rhs.get(t) instanceof Term) {
+                                        if (followCE.add((Term) rhs.get(t))) {
+                                            hasChanged = true;
+                                            follow.put((NonTerm) currentElement, followCE);
+                                        }
+                                        break;
+                                    } else {
+                                        t = t + 1;
                                     }
                                 }
                             }
