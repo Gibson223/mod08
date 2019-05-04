@@ -1,6 +1,5 @@
 lexer grammar If;
 
-@header{package pp.block2.cc.ll;}
 
 IF : 'if' ;
 THEN : 'then' ;

@@ -1,6 +1,5 @@
 lexer grammar Sentence;
 
-@header{package pp.block2.cc.ll;}
 
 NOUN : 'students' | 'compilers' ;
 VERB : 'love' ;
