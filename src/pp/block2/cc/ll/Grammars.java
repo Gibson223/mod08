@@ -80,4 +80,30 @@ public class Grammars {
 		g.addRule(Q, b,c);
 		return g;
 	}
+	public static Grammar makeLRQLL1() {
+		// Define the non-terminals
+		NonTerm L = new NonTerm("L");
+		NonTerm R = new NonTerm("R");
+		NonTerm Q = new NonTerm("Q");
+		NonTerm Rprime = new NonTerm("R'");
+		NonTerm Qprime = new NonTerm("Q'");
+		// Define the terminals, using the Sentence.g4 lexer grammar
+		// Make sure you take the token constantss from the right class!
+		SymbolFactory fact = new SymbolFactory(LRQ.class);
+		Term a = fact.getTerminal(LRQ.A);
+		Term b = fact.getTerminal(LRQ.B);
+		Term c = fact.getTerminal(LRQ.C);
+		// Build the context free grammar
+		Grammar g = new Grammar(L);
+		g.addRule(L, R, a);
+		g.addRule(L, Q, b, a);
+		g.addRule(R, a,b,a, Rprime);
+		g.addRule(R, c,a,b,a, Rprime);
+		g.addRule(Rprime, b,c,Rprime);
+		g.addRule(Rprime, Symbol.EMPTY);
+		g.addRule(Qprime, c);
+		g.addRule(Qprime, b,c);
+		g.addRule(Q, b,Qprime);
+		return g;
+	}
 }

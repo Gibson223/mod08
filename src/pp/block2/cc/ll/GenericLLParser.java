@@ -1,9 +1,6 @@
 package pp.block2.cc.ll;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.Token;
@@ -31,7 +28,7 @@ public class GenericLLParser implements Parser {
 
 	public GenericLLParser(Grammar g) {
 		this.g = g;
-		this.calc = null; // TODO Instantiate your LLCalc-implementation
+		this.calc = new MyLLCalc(g); // TODO Instantiate your LLCalc-implementation
 	}
 
 	@Override
@@ -53,8 +50,15 @@ public class GenericLLParser implements Parser {
 	 * @throws ParseException if the symbol cannot be parsed
 	 * because the token stream does not contain the expected symbols
 	 */
-	private AST parse(Symbol symb) throws ParseException {
-		return null; // TODO fill in
+	private AST parse(Symbol symb) throws ParseException {// TODO fill in
+		AST ret;
+		if (symb instanceof Term) {
+			ret = new AST((Term)symb, this.next());
+		} else {
+			ret = this.parse(this.lookup((NonTerm) symb));
+		}
+//		System.out.println("should never get here.grammar no start...??");
+		return ret;
 	}
 
 	/** Parses the start of the token stream according to a given
@@ -66,8 +70,18 @@ public class GenericLLParser implements Parser {
 	 * @throws ParseException if the symbol cannot be parsed
 	 * because the token stream does not contain the expected symbols
 	 */
-	private AST parse(Rule rule) throws ParseException {
-		return null; // TODO fill in
+	private AST parse(Rule rule) throws ParseException {// TODO fill in
+		AST ret = new AST(rule.getLHS());
+		for (Symbol sim : rule.getRHS()) {
+//		for (Symbol sim : this.lookup((NonTerm) rule.getLHS()).getRHS()) {
+				if (sim instanceof Term) {
+				ret.addChild(new AST((Term) sim, this.next()));
+//				ret.addChild(parse(sim));
+			} else {
+				ret.addChild(parse((NonTerm) sim));
+			}
+		}
+		return ret;
 	}
 
 	/** Uses the lookup table to look up the rule to which
@@ -129,7 +143,27 @@ public class GenericLLParser implements Parser {
 	}
 
 	/** Constructs the {@link #ll1Table}. */
-	private Map<NonTerm, Map<Term, Rule>> calcLL1Table() {
-		return null; // TODO fill in
+	private Map<NonTerm, Map<Term, Rule>> calcLL1Table() { // TODO fill in
+		Map<Rule, Set<Term>>firstplusmap = this.calc.getFirstp();
+		Map<NonTerm, Map<Term, Rule>> ret = new HashMap<>();
+		for (NonTerm A : this.g.getNonterminals()) {
+			for (Term w : this.g.getTerminals()) {
+				Map<Term, Rule> wmap = new HashMap<Term, Rule>();
+				wmap.put(w, null );
+				ret.put(A, wmap);
+			}
+			for (Rule rule : this.g.getRules(A)) {
+				Set<Term>  terms = firstplusmap.get(rule);
+				for (Term term : terms) { // Symbol.EOF should be included, so no extra if
+					if (!(ret.get(A).get(term) == null)) {
+						System.out.println("should never be printed!!!");
+						System.out.println("it is expected that there is only one rule, otherwise grammar is not ll1");
+					}
+					ret.get(A).put(term, rule);
+				}
+			}
+		}
+
+		return ret;
 	}
 }

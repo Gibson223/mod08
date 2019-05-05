@@ -171,6 +171,13 @@ public class LLCalcTest {
 
 	@Test
 	public void testLRQLL1() {
+		Grammar lrqll1 = Grammars.makeLRQLL1();
+//		LLCalc test = createCalc(lrqll1);
+		LLCalc test = new MyLLCalc(sentenceG);
+		Map<Rule, Set<Term>> firstplusmap = test.getFirstp();
+		for (Rule rule : sentenceG.getRules()) {
+			System.out.println(rule.toString() + ":" + firstplusmap.get(rule));
+		}
 		assertFalse(LRQLL.isLL1()); }
 
 	/** Creates an LL1-calculator for a given grammar. */

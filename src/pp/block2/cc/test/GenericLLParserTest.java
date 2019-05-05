@@ -14,10 +14,7 @@ import org.junit.Test;
 import pp.block2.cc.AST;
 import pp.block2.cc.ParseException;
 import pp.block2.cc.Parser;
-import pp.block2.cc.ll.GenericLLParser;
-import pp.block2.cc.ll.Grammars;
-import pp.block2.cc.ll.Sentence;
-import pp.block2.cc.ll.SentenceParser;
+import pp.block2.cc.ll.*;
 
 public class GenericLLParserTest {
 	private Parser parser1;
@@ -34,7 +31,18 @@ public class GenericLLParserTest {
 		compare("all undergraduate students love all compilers.");
 		fails("all undergraduate students love all compilers");
 		fails("all undergraduate students love love.");
-		fails("all undergraduate students all compilers.");
+		fails("all undergraduate students all compilers."); // TODO: zou gewoon moeten falen. in debug zie ik niet zo waar het fout gaat...
+	}
+
+	@Test
+	public void testLRQ() {
+		this.lexerType = LRQ.class;
+		this.parser1 = new LRQParser();
+		this.parser2 = new GenericLLParser(Grammars.makeLRQLL1());
+		compare("abaa");
+		compare("cababcbca");
+		fails("bbcca");
+		compare("bbcba");
 	}
 
 	private void fails(String text) {
@@ -50,6 +58,7 @@ public class GenericLLParserTest {
 			fail(String.format("Parsing '%s' should have failed but didn't",
 					text));
 		} catch (ParseException e) {
+			System.out.println("did get here with text:" + text);
 			// success
 		}
 	}

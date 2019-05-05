@@ -138,6 +138,7 @@ public class SentenceParser implements Parser {
 			System.err.println("Usage: [text]+");
 		} else {
 			for (String text : args) {
+				System.out.println(text);
 				CharStream stream = CharStreams.fromString(text);
 				Lexer lexer = new Sentence(stream);
 				try {
