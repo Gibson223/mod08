@@ -99,7 +99,7 @@ public class MyLLCalc implements LLCalc {
                                 follow.put((NonTerm) currentElement, followCE);
                             }
                             int t = i+2;
-                            while (t <= rhs.size() -3  && first.contains(Symbol.EMPTY)) { // first has index i+1
+                            while (t <= rhs.size() -3  && firstMap.get(rhs.get(t-1)).contains(Symbol.EMPTY)) { // first has index i+1
                                 if (firstMap.get(rhs.get(t-1)).contains(Symbol.EMPTY)) {
                                     if (rhs.get(t) instanceof Term) {
                                         if (followCE.add((Term) rhs.get(t))) {
@@ -149,21 +149,40 @@ public class MyLLCalc implements LLCalc {
     @Override
     public boolean isLL1() {
         Map<Rule, Set<Term>> firstPlus = getFirstp();
-        for (NonTerm lhs : grammar.getNonterminals()) {
-            int last = grammar.getRules(lhs).size() - 1;
-            int rule1index = 0;
-            List<Rule> rules = grammar.getRules(lhs);
-            while (rule1index < last) {
-                int rule2index = rule1index + 1;
-                while (rule2index <= last) {
-                    if (firstPlus.get(rules.get(rule1index)).containsAll(firstPlus.get(rules.get(rule2index)))) {
+        for (Rule rule1 : firstPlus.keySet()) {
+            for (Rule rule2 : firstPlus.keySet()) {
+//                if (rule1.getLHS().getName().equals("Modifier") && rule2.getLHS().getName().equals("Modifier" )) {
+//                    System.out.println(5);// hahha
+//                }
+                if ((rule1.getLHS()).equals(rule2.getLHS()) && !rule1.equals(rule2)) {
+                    if (firstPlus.get(rule1).containsAll(firstPlus.get(rule2)) || firstPlus.get(rule2).containsAll(firstPlus.get(rule1))) {
                         return false;
                     }
-                    rule2index += 1;
                 }
-                rule1index += 1;
             }
         }
+//        for (NonTerm lhs : grammar.getNonterminals()) {
+//            int last = grammar.getRules(lhs).size() - 1;
+//            int rule1index = 0;
+//            List<Rule> rules = grammar.getRules(lhs);
+//            while (rule1index < last - 1) {
+//                int rule2index = rule1index + 1;
+//                while (rule2index <= last) {
+//                    Set<Term> aaa = firstPlus.get(rules.get(rule1index));
+//                    Set<Term> bbb = firstPlus.get(rules.get(rule2index));
+////                    if (aaa.size() > bbb.size()) {
+////                        Set<Term> temp = aaa;
+////                        aaa = bbb;
+////                        bbb = temp;
+////                    }
+//                    if (aaa.containsAll(bbb) || bbb.containsAll(aaa)) {
+//                        return false;
+//                    }
+//                    rule2index += 1;
+//                }
+//                rule1index += 1;
+//            }
+//        }
         return true;
     }
 }
