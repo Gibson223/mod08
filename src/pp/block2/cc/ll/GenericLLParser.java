@@ -74,7 +74,7 @@ public class GenericLLParser implements Parser {
 		AST ret = new AST(rule.getLHS());
 		for (Symbol sim : rule.getRHS()) {
 //		for (Symbol sim : this.lookup((NonTerm) rule.getLHS()).getRHS()) {
-				if (sim instanceof Term) {
+			if (sim instanceof Term) {
 				ret.addChild(new AST((Term) sim, this.next()));
 //				ret.addChild(parse(sim));
 			} else {
